@@ -34,7 +34,7 @@ function App() {
             </p>
             <div className="flex items-center justify-center md:justify-start sm:gap-4 gap-2 ">
               <a
-                href="/assets/CV_Fath.pdf"
+                href="/assets/Fath_CV.pdf"
                 className="bg-orange-500 p-4 rounded-2xl hover:bg-orange-400 flex items-center justify-center gap-2"
               >
                 Download CV
