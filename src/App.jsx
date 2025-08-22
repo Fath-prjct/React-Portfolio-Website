@@ -27,19 +27,20 @@ function App() {
               Hi, Saya Fath A.R.
             </h1>
             <p className="text-base/loose mb-6 opacity-50 ">
-              Saya memiliki ketertarikan di dunia design UI/UX maupun Frontend
-              Developher, terutama dalam pembuatan website dan design seperti
-              poster, illustrasi vector, dan infografis.
+              I am a UI/UX design and Frontend Development enthusiast based in
+              Indonesia, with a strong interest in building websites and
+              creating impactful digital experiences. I also enjoy graphic
+              design, including posters, vector illustrations, and infographics.
             </p>
             <div className="flex items-center justify-center md:justify-start sm:gap-4 gap-2 ">
               <a
-                href="#"
+                href="/assets/CV_Fath.pdf"
                 className="bg-orange-500 p-4 rounded-2xl hover:bg-orange-400 flex items-center justify-center gap-2"
               >
                 Download CV
               </a>
               <a
-                href="#tentang"
+                href="#proyek"
                 className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600 flex items-center justify-center gap-2"
               >
                 Lihat Project
@@ -88,7 +89,7 @@ function App() {
                 </div>
                 <div>
                   <h1 className="text-4xl md-1">
-                    3<span className="text-orange-500">+</span>
+                    2<span className="text-orange-500">+</span>
                   </h1>
                   <p>Program Project</p>
                 </div>
@@ -117,8 +118,7 @@ function App() {
               data-aos-duration="1000"
               data-aos-delay="300"
             >
-              Berikut ini beberapa tools yang biasa saya gunakan untuk
-              pengerjaan project
+              These are some of the tools I use for my projects:
             </p>
             <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
               {listTools.map((tool) => (
@@ -163,7 +163,7 @@ function App() {
             data-aos-duration="1000"
             data-aos-delay="300"
           >
-            Berikut adalah beberapa project design yang pernah saya kerjakan.
+            Here are a few design projects I’ve worked on
           </p>
 
           <div
@@ -204,11 +204,10 @@ function App() {
             data-aos-duration="1000"
             data-aos-delay="300"
           >
-            Berikut adalah beberapa project website maupun program yang pernah
-            saya kerjakan.
+            Here are a few websites and programs I’ve worked on
           </p>
 
-          <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-4">
+          <div className="proyek-box mt-14 grid lg:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-4">
             {listProyek.map((proyek) => (
               <div
                 key={proyek.id}
@@ -238,7 +237,7 @@ function App() {
                   </div>
                   <div className="mt-8 text-center">
                     <a
-                      href="#"
+                      href={proyek.link}
                       className="bg-orange-500 p-3 rounded-lg block border border-zinc-600 hover:bg-orange-400"
                     >
                       Lihat Project
@@ -261,7 +260,7 @@ function App() {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            Kontak
+            Contact
           </h1>
           <p
             className="text-base/loose text-center mb-10 opacity-50"
@@ -280,11 +279,11 @@ function App() {
           >
             <div className="flex flex-col gap-6">
               <div className="flex flex-col gap-2">
-                <label className="font-semibold">Nama Lengkap</label>
+                <label className="font-semibold">Name</label>
                 <input
                   type="text"
                   name="nama"
-                  placeholder="Masukan Nama..."
+                  placeholder="Enter your name..."
                   className="border border-zinc-500 p-2 rounded-md"
                   required
                 />
@@ -294,21 +293,21 @@ function App() {
                 <input
                   type="email"
                   name="email"
-                  placeholder="Masukan Email..."
+                  placeholder="Enter your email..."
                   className="border border-zinc-500 p-2 rounded-md"
                   required
                 />
               </div>
               <div className="flex flex-col gap-2">
                 <label htmlFor="pesan" className="font-semibold">
-                  Pesan
+                  Message
                 </label>
                 <textarea
                   name="pesan"
                   id="pesan"
                   cols="45"
                   rows="7"
-                  placeholder="Pesan..."
+                  placeholder="Enter your message..."
                   className="border border-zinc-500 p-2 rounded-md"
                   required
                 ></textarea>
@@ -318,7 +317,7 @@ function App() {
                   type="submit"
                   className="bg-orange-500 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 hover:bg-orange-400"
                 >
-                  Kirim Pesan
+                  Send Message
                 </button>
               </div>
             </div>

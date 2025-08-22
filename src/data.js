@@ -101,6 +101,7 @@ export const listProyek = [
     desk: "Project IOT berbasis ESP32 dipadukan dengan Sensor suhu, dan fan 12V serta Bot Father",
     tools: ["Arduino", "IOT", "Telegram"],
     dad: "200",
+    link: "https://www.canva.com/design/DAEZcalfGZE/EaBk0pGVOXoTni91CKN2bg/edit?utm_content=DAEZcalfGZE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
     id: 2,
@@ -109,5 +110,6 @@ export const listProyek = [
     desk: "Website Photobooth by Lateral Eyes berbasis HTML, CSS, dan Java Script",
     tools: ["HTML", "CSS", "JS"],
     dad: "300",
+    link: "https://lateraleyes.netlify.app/",
   },
 ];

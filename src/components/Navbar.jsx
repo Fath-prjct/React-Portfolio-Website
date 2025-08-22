@@ -17,7 +17,7 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div className="navbar py-7 flex items-center justify-between px-6 md:px-10">
+    <div className="navbar py-7 flex items-center justify-between px-6 md:px-10 ">
       <div className="logo">
         <img src="/assets/frk.webp" className="h-8 md:h-10 w-auto"></img>
       </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
             bg-white/30 backdrop-blur-md p-4 
             rounded-3xl
             md:bg-transparent transition-all md:transition-none 
-            z-40 mx-4" ${active ? "top-0 opacity-100" : "-top-10 opacity-0"}`}
+            z-40 mx-4" ${active ? "top-4 opacity-100" : "-top-10 opacity-0"}`}
       >
         <li>
           <a href="#beranda" className=" sm:text-lg text-base font-medium">
